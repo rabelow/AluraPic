@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 
 import { PhotoComponent } from './photos/photo/photo.component';
 import { PhotosModule } from './photos/photos.module';
-import { HttpClientModule } from '@angular/common/http';
+import { PhotoListComponent } from './photos/photo-list/photo-list.component';
 
 @NgModule({
    declarations: [
@@ -15,8 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
    imports: [
       BrowserModule,
       AppRoutingModule,
-      PhotosModule,
-      HttpClientModule
+      PhotosModule
    ],
    providers: [],
    bootstrap: [
